@@ -8,8 +8,8 @@ export default function CounterPage() {
     <>
       <div className="text-red text-lg">{count}</div>
       <div className="mt-4 flex gap-2">
-        <button className="btn" onClick={ increment }>+1</button>
-        <button className="btn bg-amber" onClick={ decrement }>-1</button>
+        <button className="btn btn-blue" onClick={ increment }>+1</button>
+        <button className="btn btn-red" onClick={ decrement }>-1</button>
       </div>
     </>
   )
